@@ -22,4 +22,5 @@ cmd.question(`Berapa Jarak Tempuh Anda : `,(input)=>{
         console.log("Biaya Layanan : " + new Intl.NumberFormat("id-ID", { style: "currency", currency: "IDR" }).format(layanan))
         cmd.close();
     }
-})
+}) 
+// kurang while
